@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-sierra",
+  "version": "1.0.0",
+  "description": "Mi proyecto final coderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [
+    "Desarrollo",
+    "web",
+    "HTML",
+    "CSS",
+    "SASS"
+  ],
+  "author": "Ivana Sierra",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,26 @@
+.alineamiento{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 200px;
+
+}
+
+.icono{
+    border-radius: 50%;
+    border: solid rgb(168, 167, 167) 10px;
+    transition: 0.5s filter;   
+}
+
+.icono:hover{
+    filter: brightness(0.3);
+}
+
+.icono:first-of-type{
+    grid-column: 2/span 2;
+}
+
+
+.col-3{
+    margin: 60px;
+}

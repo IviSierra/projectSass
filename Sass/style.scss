@@ -1,0 +1,136 @@
+$colorbg: linear-gradient(to bottom, #ee9ca7, #f0b5cb, #efcfe6, #f2e8f6, #ffffff);
+$colorTitles: #A072BE;
+$colorTitle: #5D59AF;
+$shadowTitles: 0 0 0.2em rgb(232, 119, 255), 0 0 0.2em rgb(216, 119, 255), 0 0 0.2em rgb(232, 119, 255);
+$shadowTitle: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+$fontTitles: 'Courgette', cursive;
+$fontSize: 20px;
+
+
+@import "contact";
+@import "index";
+@import "skills";
+
+
+.container-flex{
+    background-image: $colorbg;
+}
+
+p{
+    font: {
+        family: 'Andada Pro', serif;
+        size: $fontSize;  
+    }
+};
+
+
+.navbar{
+    background: {
+        image: url(/img/header/4.jpg);
+        repeat: repeat-x;
+    };
+    font: {
+        size: $fontSize+5;
+        family: 'Andada Pro', serif;
+    }
+    padding: 50px;   
+
+};
+
+.navbar-brand{
+    font: {
+        size: $fontSize*2;
+        family: 'Andada Pro', serif;
+        weight: bolder;
+    }    
+};
+
+.title{
+    text: {
+        align: center;
+        shadow: $shadowTitle;
+    }
+
+    font: {
+        size: $fontSize*4.5;
+        family: $fontTitles;
+    }
+    color: $colorTitle;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+};
+
+.title__name{
+    text: {
+        align: left;
+        shadow: $shadowTitles;
+    }
+    font: {
+        family:$fontTitles;
+        size: $fontSize*3;
+    };
+    color: $colorTitles;   
+    margin: {
+        top: 100px;
+        left: 320px;
+    };
+};
+
+.title__center{
+    text: {
+        align: center;
+        shadow: $shadowTitles;
+    }
+
+    font: {
+        size: $fontSize*4.5;
+        family: $fontTitles;
+    }
+    color: $colorTitles;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+};
+
+.footer{
+    background: #f3f3f3;
+    color: #c0c0c0;
+    font-size: 12px;
+    padding: 20px ;
+    text-align: center;  
+    margin-top: 300px;  
+
+};
+
+.footer__text{
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+};    
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+};
+
+.descripcion{    
+    margin:200px;
+    text-align: center;
+    p{
+        font-weight: initial;
+    }
+     
+};
+
+.alineamientoTarjetas{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 100px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #b085bb !important;
+    border-color: rgb(92, 92, 92) !important;    
+}
